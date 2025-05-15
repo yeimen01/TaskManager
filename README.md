@@ -1,12 +1,51 @@
-# React + Vite
+# 🧾 Task Management - Frontend (React + Bootstrap)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el frontend del proyecto de gestión de tareas, desarrollado con **React** y estilizado con **Bootstrap**. Consume la API REST creada en .NET Core para realizar operaciones CRUD.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- React 18+
+- Bootstrap 5
+- Axios
+- React Router DOM (opcional)
+- HTML/CSS/JS (JSX)
+- Vite o Create React App (según configuración)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Requisitos
+
+- Node.js 18+
+- npm o yarn
+- Backend en ejecución (ver [TaskManagementApi](../TaskManagementApi))
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/usuario/TaskManagementFrontend.git
+cd TaskManagementFrontend
+```
+
+2. Instala las dependencias:
+
+```bash
+npm install
+```
+
+🧭 Funcionalidades implementadas
+- 🔍 Listar tareas
+- ➕ Crear nueva tarea
+- ✏️ Editar tarea
+- ✅ Marcar como completada
+- ❌ Eliminar tarea
+- 🧰 Validaciones (campos requeridos, fechas no válidas)
+- 🖼️ Interfaz amigable con Bootstrap
+
+
+
